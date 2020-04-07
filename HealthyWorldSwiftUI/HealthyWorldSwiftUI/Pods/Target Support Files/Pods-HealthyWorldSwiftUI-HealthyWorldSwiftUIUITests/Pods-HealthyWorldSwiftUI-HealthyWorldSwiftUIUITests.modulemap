@@ -1,0 +1,6 @@
+framework module Pods_HealthyWorldSwiftUI_HealthyWorldSwiftUIUITests {
+  umbrella header "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

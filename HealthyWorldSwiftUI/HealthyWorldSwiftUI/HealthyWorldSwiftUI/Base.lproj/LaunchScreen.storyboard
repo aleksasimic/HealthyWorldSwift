@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7DS-Ul-EaY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Healthy world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWS-2c-isO">
+                                        <rect key="frame" x="98.5" y="495.5" width="217" height="39.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="33"/>
+                                        <color key="textColor" red="0.1529411765" green="0.66274509800000003" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="healthy_world_logo" translatesAutoresizingMaskIntoConstraints="NO" id="hcE-eQ-aoQ">
+                                        <rect key="frame" x="169.5" y="410.5" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="RYw-fZ-1Fy"/>
+                                            <constraint firstAttribute="height" constant="75" id="zQ7-JJ-vyy"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.78823529410000004" green="1" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JWS-2c-isO" firstAttribute="top" secondItem="hcE-eQ-aoQ" secondAttribute="bottom" constant="10" id="A9r-xa-nYF"/>
+                                    <constraint firstItem="hcE-eQ-aoQ" firstAttribute="centerX" secondItem="7DS-Ul-EaY" secondAttribute="centerX" id="Adu-5k-jew"/>
+                                    <constraint firstItem="hcE-eQ-aoQ" firstAttribute="centerY" secondItem="7DS-Ul-EaY" secondAttribute="centerY" id="IHe-aO-Tq6"/>
+                                    <constraint firstItem="JWS-2c-isO" firstAttribute="centerX" secondItem="7DS-Ul-EaY" secondAttribute="centerX" id="K4R-Y6-KCA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7DS-Ul-EaY" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fnC-ye-d01"/>
+                            <constraint firstAttribute="bottom" secondItem="7DS-Ul-EaY" secondAttribute="bottom" id="gN2-4Z-vis"/>
+                            <constraint firstItem="7DS-Ul-EaY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vcl-NC-7MR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7DS-Ul-EaY" secondAttribute="trailing" id="yAE-ZH-r0j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="healthy_world_logo" width="384" height="384"/>
+    </resources>
+</document>

@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1714967F148D01B6EAF11F4A85C122BB /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21179BE990844C55015BB2A9922B32C1 /* PasswordRule.swift */; };
+		281E7A84C0A7572471EC3BC99224DDA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4170E4DB91A280C78E1759433A7307D1 /* PredicateRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C343CDB56CD06B46CE931D6A2225BE7 /* PredicateRule.swift */; };
+		4950E2F7735DE5FCFE0E5793885E120B /* LengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940946F07BCBF538BBF4E709F743C017 /* LengthRule.swift */; };
+		6599A4D69D5828EF660076A1B49CD84F /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC300039AC5D34CBF9398E5A9169D1 /* PasswordValidator.swift */; };
+		7738DD510F857BE195D2180F0DF7ECED /* Pods-HealthyWorldSwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA50835F827AECA8779FBCFCA894234 /* Pods-HealthyWorldSwiftUI-dummy.m */; };
+		7A7B2A0BD3CA165920DA7B6616568E6B /* RequiredCharacterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF95B4930DF39AA713CBD666E6E98FB /* RequiredCharacterRule.swift */; };
+		8E0F971CFAAD27567CDFC1DCFECB7EAD /* Pods-HealthyWorldSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E059AC829B60911FA1A847D911075 /* Pods-HealthyWorldSwiftUITests-dummy.m */; };
+		97ED3713F4CE7B8A75D75ABF8A1908D9 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65D88E3D398E93CA9FA0DC843C96C2 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-dummy.m */; };
+		A9333071D75F463E27D9F62A20445CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AE19E6702018CE0ACFA35651F96FEA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1B28C5A2CC1A1927AE789966B9FA658 /* Pods-HealthyWorldSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E274E83BA7B185507F8132F6777BEA /* Pods-HealthyWorldSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40CE80F1FB643F5E093D2400D94E57B /* Navajo-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E848310F9A5D490B5E3F227A55C2B /* Navajo-Swift-dummy.m */; };
+		BC1DFBCDEF7CA91ABA0A35731CF20927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD3E6AF56E14B874CA5F17CC26EC0FF2 /* RegularExpressionRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B5E3C18FDCAB45D1B047EF2ECBEF2 /* RegularExpressionRule.swift */; };
+		C897C98512ED58C34D8831D119D5AF09 /* Pods-HealthyWorldSwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D93E69BFEFD32CC8F80D27A25E275D7 /* Pods-HealthyWorldSwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD3FAB6AB83A204A0D51F04B20BE2AA4 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871BFD336F8F37969E16CA357E07921A /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D413392A3A92CF6F45FFC42F723A26AC /* AllowedCharacterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4594B7E664CCAA1D457A44C100B28 /* AllowedCharacterRule.swift */; };
+		E02A0A640EEE451202E4E5D77D64DD03 /* Navajo-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F08A41D0EBFB8300CAC569B000615D4B /* Navajo-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4911937D3FE85C75C8FB3F42AAED2BF /* Navajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53B4F58F05BC8B3E3CFD09A0209FECC /* Navajo.swift */; };
+		EA95EBBF53E33EE2A8DB6A3CEE3C9E2A /* BlockRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123C29539C7199B2CF6DC30D76AA454 /* BlockRule.swift */; };
+		FB9CBDCC0B86B21591D925ABC4028833 /* DictionaryWordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FFCFF6105825145758EDAC9671B38F /* DictionaryWordRule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12766AE7363C8843EC4883144FD34B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867B282CB3AC4E1A0A1A0CAC96BF2F40;
+			remoteInfo = "Pods-HealthyWorldSwiftUI";
+		};
+		41946B4198DAD4EB8576F7B03F96E13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7798364F7B4AEC78089B1CF8504CEBB4;
+			remoteInfo = "Navajo-Swift";
+		};
+		8192F2AA856F8B6D202D2DC76BDD3C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7798364F7B4AEC78089B1CF8504CEBB4;
+			remoteInfo = "Navajo-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3E059AC829B60911FA1A847D911075 /* Pods-HealthyWorldSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthyWorldSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		0F9C4BCF21127AE484F6EFA6E68A41EA /* Navajo-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Navajo-Swift-Info.plist"; sourceTree = "<group>"; };
+		1CDF85F739686822D91590833993D4B6 /* Navajo-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-prefix.pch"; sourceTree = "<group>"; };
+		21179BE990844C55015BB2A9922B32C1 /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = Source/PasswordRule.swift; sourceTree = "<group>"; };
+		27CBADD87BC12C7066E4A341327CB9A9 /* Pods-HealthyWorldSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyWorldSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		2EA50835F827AECA8779FBCFCA894234 /* Pods-HealthyWorldSwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthyWorldSwiftUI-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34B4FB4578EE753AEFBD67E222C0E023 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3DA267392C158EF28C1D2114DD0BDB8A /* Pods-HealthyWorldSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyWorldSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BF95B4930DF39AA713CBD666E6E98FB /* RequiredCharacterRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequiredCharacterRule.swift; path = Source/RequiredCharacterRule.swift; sourceTree = "<group>"; };
+		52A8BBC904A85D388FD86220D00DA57B /* Navajo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Navajo_Swift.framework; path = "Navajo-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AC300039AC5D34CBF9398E5A9169D1 /* PasswordValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordValidator.swift; path = Source/PasswordValidator.swift; sourceTree = "<group>"; };
+		55676AD45B8E6FD1F9966B999DCE16E0 /* Pods-HealthyWorldSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyWorldSwiftUITests-Info.plist"; sourceTree = "<group>"; };
+		558E8C769F86BAB8BC57BF8C3C706E4C /* Pods-HealthyWorldSwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyWorldSwiftUI-Info.plist"; sourceTree = "<group>"; };
+		5D93E69BFEFD32CC8F80D27A25E275D7 /* Pods-HealthyWorldSwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthyWorldSwiftUI-umbrella.h"; sourceTree = "<group>"; };
+		6E4DE9FC295081AF980D112E7E42AFA6 /* Pods-HealthyWorldSwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyWorldSwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		79B81D03451D804E1C715375AD652B9C /* Pods-HealthyWorldSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthyWorldSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F9CAEA241C0A6B48C7CE90D07E35BA1 /* Pods_HealthyWorldSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthyWorldSwiftUI.framework; path = "Pods-HealthyWorldSwiftUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871BFD336F8F37969E16CA357E07921A /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h"; sourceTree = "<group>"; };
+		8DC6F6B4655F2B30ABC78BE50D1EE18C /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9123C29539C7199B2CF6DC30D76AA454 /* BlockRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockRule.swift; path = Source/BlockRule.swift; sourceTree = "<group>"; };
+		92FFCFF6105825145758EDAC9671B38F /* DictionaryWordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryWordRule.swift; path = Source/DictionaryWordRule.swift; sourceTree = "<group>"; };
+		940946F07BCBF538BBF4E709F743C017 /* LengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LengthRule.swift; path = Source/LengthRule.swift; sourceTree = "<group>"; };
+		94E274E83BA7B185507F8132F6777BEA /* Pods-HealthyWorldSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthyWorldSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		9C343CDB56CD06B46CE931D6A2225BE7 /* PredicateRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PredicateRule.swift; path = Source/PredicateRule.swift; sourceTree = "<group>"; };
+		9D8B090B3ABABB7D6A2755F1108A89AE /* Navajo-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Navajo-Swift.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A258D074772D424F4B5267F444E11172 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A41B5E3C18FDCAB45D1B047EF2ECBEF2 /* RegularExpressionRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressionRule.swift; path = Source/RegularExpressionRule.swift; sourceTree = "<group>"; };
+		A90E848310F9A5D490B5E3F227A55C2B /* Navajo-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navajo-Swift-dummy.m"; sourceTree = "<group>"; };
+		AA70DE1253F1F72AE35F86B361220E7F /* Pods-HealthyWorldSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyWorldSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0E9FA10D939895507C8988756835906 /* Pods_HealthyWorldSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthyWorldSwiftUITests.framework; path = "Pods-HealthyWorldSwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39EE25B9A5E0FBA11DB0C338E4D6CD0 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.modulemap"; sourceTree = "<group>"; };
+		B53B4F58F05BC8B3E3CFD09A0209FECC /* Navajo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navajo.swift; path = Source/Navajo.swift; sourceTree = "<group>"; };
+		B7C4594B7E664CCAA1D457A44C100B28 /* AllowedCharacterRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllowedCharacterRule.swift; path = Source/AllowedCharacterRule.swift; sourceTree = "<group>"; };
+		C18E4B4A87F1CFCDB77B616FD1C1B035 /* Pods-HealthyWorldSwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthyWorldSwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8476A01F6EE6FCFF7D97A82EDAAC5BB /* Pods-HealthyWorldSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthyWorldSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		CA2F3533848CCC8798460C9B1347EC39 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE55AC30578232BD025D59065F88A900 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF58CD24B4A82E2F9D0C7AAC4C85EBB7 /* Pods-HealthyWorldSwiftUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthyWorldSwiftUI-frameworks.sh"; sourceTree = "<group>"; };
+		D28246FE3061E0924FFA3542B9C8AE43 /* Pods-HealthyWorldSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyWorldSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		D4EBF9DF2DECC3A40B975D9274A8C4BD /* Pods_HealthyWorldSwiftUI_HealthyWorldSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthyWorldSwiftUI_HealthyWorldSwiftUIUITests.framework; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7E97913CCA669FEEA66273B741AE16 /* Navajo-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Navajo-Swift.xcconfig"; sourceTree = "<group>"; };
+		EC65D88E3D398E93CA9FA0DC843C96C2 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-dummy.m"; sourceTree = "<group>"; };
+		F06045C1F27807AB5609D78FC2A3E214 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-Info.plist"; sourceTree = "<group>"; };
+		F08A41D0EBFB8300CAC569B000615D4B /* Navajo-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navajo-Swift-umbrella.h"; sourceTree = "<group>"; };
+		F3F852606E24462F335B416CC3B7FDE6 /* Pods-HealthyWorldSwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthyWorldSwiftUI.modulemap"; sourceTree = "<group>"; };
+		F8742393F7538996CF7A310B3AA90ADD /* Pods-HealthyWorldSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyWorldSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0118FFDB2F9D139CB8256EAC0B4AB2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281E7A84C0A7572471EC3BC99224DDA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28462E32F91CDE6438859946094D1DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9333071D75F463E27D9F62A20445CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DFC533E253A900A65FC8E9705276A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19E6702018CE0ACFA35651F96FEA1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F3BF0CD8549E12E02186B3E7DF6381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1DFBCDEF7CA91ABA0A35731CF20927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DFAA131D1467EC2581F80ADC7F185C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06E8D0B68523A31767732B2D03D193C /* Pods-HealthyWorldSwiftUI */,
+				3A1169618BF37015F4361803FE226CE2 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests */,
+				EE83AFCEE108E0D3C918963641FF6C7F /* Pods-HealthyWorldSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A1169618BF37015F4361803FE226CE2 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B39EE25B9A5E0FBA11DB0C338E4D6CD0 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.modulemap */,
+				CA2F3533848CCC8798460C9B1347EC39 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-acknowledgements.markdown */,
+				8DC6F6B4655F2B30ABC78BE50D1EE18C /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-acknowledgements.plist */,
+				EC65D88E3D398E93CA9FA0DC843C96C2 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-dummy.m */,
+				34B4FB4578EE753AEFBD67E222C0E023 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-frameworks.sh */,
+				F06045C1F27807AB5609D78FC2A3E214 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-Info.plist */,
+				871BFD336F8F37969E16CA357E07921A /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h */,
+				A258D074772D424F4B5267F444E11172 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.debug.xcconfig */,
+				CE55AC30578232BD025D59065F88A900 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.release.xcconfig */,
+			);
+			name = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests";
+			path = "Target Support Files/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		642CB2622A38DB8822B12D448F00885C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D8B090B3ABABB7D6A2755F1108A89AE /* Navajo-Swift.modulemap */,
+				DE7E97913CCA669FEEA66273B741AE16 /* Navajo-Swift.xcconfig */,
+				A90E848310F9A5D490B5E3F227A55C2B /* Navajo-Swift-dummy.m */,
+				0F9C4BCF21127AE484F6EFA6E68A41EA /* Navajo-Swift-Info.plist */,
+				1CDF85F739686822D91590833993D4B6 /* Navajo-Swift-prefix.pch */,
+				F08A41D0EBFB8300CAC569B000615D4B /* Navajo-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Navajo-Swift";
+			sourceTree = "<group>";
+		};
+		C062C92D648E9A1B6EC2417136C8214A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97CB366955482187D2DA4D95E4275A4 /* Navajo-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C062C92D648E9A1B6EC2417136C8214A /* Pods */,
+				D8C9146D2BE7F284344E1213482D6216 /* Products */,
+				39DFAA131D1467EC2581F80ADC7F185C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8C9146D2BE7F284344E1213482D6216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A8BBC904A85D388FD86220D00DA57B /* Navajo_Swift.framework */,
+				7F9CAEA241C0A6B48C7CE90D07E35BA1 /* Pods_HealthyWorldSwiftUI.framework */,
+				D4EBF9DF2DECC3A40B975D9274A8C4BD /* Pods_HealthyWorldSwiftUI_HealthyWorldSwiftUIUITests.framework */,
+				B0E9FA10D939895507C8988756835906 /* Pods_HealthyWorldSwiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06E8D0B68523A31767732B2D03D193C /* Pods-HealthyWorldSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F3F852606E24462F335B416CC3B7FDE6 /* Pods-HealthyWorldSwiftUI.modulemap */,
+				C18E4B4A87F1CFCDB77B616FD1C1B035 /* Pods-HealthyWorldSwiftUI-acknowledgements.markdown */,
+				6E4DE9FC295081AF980D112E7E42AFA6 /* Pods-HealthyWorldSwiftUI-acknowledgements.plist */,
+				2EA50835F827AECA8779FBCFCA894234 /* Pods-HealthyWorldSwiftUI-dummy.m */,
+				CF58CD24B4A82E2F9D0C7AAC4C85EBB7 /* Pods-HealthyWorldSwiftUI-frameworks.sh */,
+				558E8C769F86BAB8BC57BF8C3C706E4C /* Pods-HealthyWorldSwiftUI-Info.plist */,
+				5D93E69BFEFD32CC8F80D27A25E275D7 /* Pods-HealthyWorldSwiftUI-umbrella.h */,
+				D28246FE3061E0924FFA3542B9C8AE43 /* Pods-HealthyWorldSwiftUI.debug.xcconfig */,
+				27CBADD87BC12C7066E4A341327CB9A9 /* Pods-HealthyWorldSwiftUI.release.xcconfig */,
+			);
+			name = "Pods-HealthyWorldSwiftUI";
+			path = "Target Support Files/Pods-HealthyWorldSwiftUI";
+			sourceTree = "<group>";
+		};
+		E97CB366955482187D2DA4D95E4275A4 /* Navajo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B7C4594B7E664CCAA1D457A44C100B28 /* AllowedCharacterRule.swift */,
+				9123C29539C7199B2CF6DC30D76AA454 /* BlockRule.swift */,
+				92FFCFF6105825145758EDAC9671B38F /* DictionaryWordRule.swift */,
+				940946F07BCBF538BBF4E709F743C017 /* LengthRule.swift */,
+				B53B4F58F05BC8B3E3CFD09A0209FECC /* Navajo.swift */,
+				21179BE990844C55015BB2A9922B32C1 /* PasswordRule.swift */,
+				52AC300039AC5D34CBF9398E5A9169D1 /* PasswordValidator.swift */,
+				9C343CDB56CD06B46CE931D6A2225BE7 /* PredicateRule.swift */,
+				A41B5E3C18FDCAB45D1B047EF2ECBEF2 /* RegularExpressionRule.swift */,
+				4BF95B4930DF39AA713CBD666E6E98FB /* RequiredCharacterRule.swift */,
+				642CB2622A38DB8822B12D448F00885C /* Support Files */,
+			);
+			name = "Navajo-Swift";
+			path = "Navajo-Swift";
+			sourceTree = "<group>";
+		};
+		EE83AFCEE108E0D3C918963641FF6C7F /* Pods-HealthyWorldSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8476A01F6EE6FCFF7D97A82EDAAC5BB /* Pods-HealthyWorldSwiftUITests.modulemap */,
+				79B81D03451D804E1C715375AD652B9C /* Pods-HealthyWorldSwiftUITests-acknowledgements.markdown */,
+				3DA267392C158EF28C1D2114DD0BDB8A /* Pods-HealthyWorldSwiftUITests-acknowledgements.plist */,
+				0C3E059AC829B60911FA1A847D911075 /* Pods-HealthyWorldSwiftUITests-dummy.m */,
+				55676AD45B8E6FD1F9966B999DCE16E0 /* Pods-HealthyWorldSwiftUITests-Info.plist */,
+				94E274E83BA7B185507F8132F6777BEA /* Pods-HealthyWorldSwiftUITests-umbrella.h */,
+				F8742393F7538996CF7A310B3AA90ADD /* Pods-HealthyWorldSwiftUITests.debug.xcconfig */,
+				AA70DE1253F1F72AE35F86B361220E7F /* Pods-HealthyWorldSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-HealthyWorldSwiftUITests";
+			path = "Target Support Files/Pods-HealthyWorldSwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CCDED06EB38742E06866DB374231E4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02A0A640EEE451202E4E5D77D64DD03 /* Navajo-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC0F1B851050107B10FD74DE04E65ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B28C5A2CC1A1927AE789966B9FA658 /* Pods-HealthyWorldSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09AD8FE7CD75824D302159CDCEACDC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3FAB6AB83A204A0D51F04B20BE2AA4 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD32ECB1FA28FBB243E27E021399FB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C897C98512ED58C34D8831D119D5AF09 /* Pods-HealthyWorldSwiftUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F0025226B2155398CE8721CE8B77F48 /* Pods-HealthyWorldSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B870089A451D4F5CEC489880C63E1B32 /* Build configuration list for PBXNativeTarget "Pods-HealthyWorldSwiftUITests" */;
+			buildPhases = (
+				3BC0F1B851050107B10FD74DE04E65ED /* Headers */,
+				1E33E4B07F7F8B48EB4DEF765F7AB694 /* Sources */,
+				28462E32F91CDE6438859946094D1DDA /* Frameworks */,
+				13AF020B92631B5620FCB8403D74D489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA6BCE989AD4123FB7197962D74FA44 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthyWorldSwiftUITests";
+			productName = "Pods-HealthyWorldSwiftUITests";
+			productReference = B0E9FA10D939895507C8988756835906 /* Pods_HealthyWorldSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7798364F7B4AEC78089B1CF8504CEBB4 /* Navajo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BCE0C1FCF6DE20AB5F8BF917F6137E /* Build configuration list for PBXNativeTarget "Navajo-Swift" */;
+			buildPhases = (
+				2CCDED06EB38742E06866DB374231E4F /* Headers */,
+				88DFF95826177323B625F15833156A7C /* Sources */,
+				F9F3BF0CD8549E12E02186B3E7DF6381 /* Frameworks */,
+				E3AA60DBBF2DE33E701B8055A3FB9A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navajo-Swift";
+			productName = "Navajo-Swift";
+			productReference = 52A8BBC904A85D388FD86220D00DA57B /* Navajo_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ED24FE1F72CB6ED5FC7B0DEF01E1309 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9ECE0FAB25564B9D175672EF8738BD3 /* Build configuration list for PBXNativeTarget "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests" */;
+			buildPhases = (
+				C09AD8FE7CD75824D302159CDCEACDC7 /* Headers */,
+				6C3DD7A8F3D1D9492C93977D4FC1A838 /* Sources */,
+				47DFC533E253A900A65FC8E9705276A7 /* Frameworks */,
+				C947A54D2EFAD0A769A4A460EB7F6E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2575AB4428DF6FFE666A91C1C4EE0C74 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests";
+			productName = "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests";
+			productReference = D4EBF9DF2DECC3A40B975D9274A8C4BD /* Pods_HealthyWorldSwiftUI_HealthyWorldSwiftUIUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		867B282CB3AC4E1A0A1A0CAC96BF2F40 /* Pods-HealthyWorldSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9DD038093D2924E0BED86376DBF819 /* Build configuration list for PBXNativeTarget "Pods-HealthyWorldSwiftUI" */;
+			buildPhases = (
+				CBD32ECB1FA28FBB243E27E021399FB1 /* Headers */,
+				023A6A864892AD424CE7F32121509B88 /* Sources */,
+				0118FFDB2F9D139CB8256EAC0B4AB2AC /* Frameworks */,
+				2DFF6D46AAD0B646820E2D14EE8F56CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CA306027CEF7A65CEA0D2CE43E2BBF /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthyWorldSwiftUI";
+			productName = "Pods-HealthyWorldSwiftUI";
+			productReference = 7F9CAEA241C0A6B48C7CE90D07E35BA1 /* Pods_HealthyWorldSwiftUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D8C9146D2BE7F284344E1213482D6216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7798364F7B4AEC78089B1CF8504CEBB4 /* Navajo-Swift */,
+				867B282CB3AC4E1A0A1A0CAC96BF2F40 /* Pods-HealthyWorldSwiftUI */,
+				7ED24FE1F72CB6ED5FC7B0DEF01E1309 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests */,
+				5F0025226B2155398CE8721CE8B77F48 /* Pods-HealthyWorldSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AF020B92631B5620FCB8403D74D489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFF6D46AAD0B646820E2D14EE8F56CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C947A54D2EFAD0A769A4A460EB7F6E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AA60DBBF2DE33E701B8055A3FB9A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023A6A864892AD424CE7F32121509B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7738DD510F857BE195D2180F0DF7ECED /* Pods-HealthyWorldSwiftUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E33E4B07F7F8B48EB4DEF765F7AB694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F971CFAAD27567CDFC1DCFECB7EAD /* Pods-HealthyWorldSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3DD7A8F3D1D9492C93977D4FC1A838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97ED3713F4CE7B8A75D75ABF8A1908D9 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DFF95826177323B625F15833156A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D413392A3A92CF6F45FFC42F723A26AC /* AllowedCharacterRule.swift in Sources */,
+				EA95EBBF53E33EE2A8DB6A3CEE3C9E2A /* BlockRule.swift in Sources */,
+				FB9CBDCC0B86B21591D925ABC4028833 /* DictionaryWordRule.swift in Sources */,
+				4950E2F7735DE5FCFE0E5793885E120B /* LengthRule.swift in Sources */,
+				B40CE80F1FB643F5E093D2400D94E57B /* Navajo-Swift-dummy.m in Sources */,
+				E4911937D3FE85C75C8FB3F42AAED2BF /* Navajo.swift in Sources */,
+				1714967F148D01B6EAF11F4A85C122BB /* PasswordRule.swift in Sources */,
+				6599A4D69D5828EF660076A1B49CD84F /* PasswordValidator.swift in Sources */,
+				4170E4DB91A280C78E1759433A7307D1 /* PredicateRule.swift in Sources */,
+				BD3E6AF56E14B874CA5F17CC26EC0FF2 /* RegularExpressionRule.swift in Sources */,
+				7A7B2A0BD3CA165920DA7B6616568E6B /* RequiredCharacterRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2575AB4428DF6FFE666A91C1C4EE0C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Navajo-Swift";
+			target = 7798364F7B4AEC78089B1CF8504CEBB4 /* Navajo-Swift */;
+			targetProxy = 8192F2AA856F8B6D202D2DC76BDD3C7E /* PBXContainerItemProxy */;
+		};
+		74CA306027CEF7A65CEA0D2CE43E2BBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Navajo-Swift";
+			target = 7798364F7B4AEC78089B1CF8504CEBB4 /* Navajo-Swift */;
+			targetProxy = 41946B4198DAD4EB8576F7B03F96E13B /* PBXContainerItemProxy */;
+		};
+		DCA6BCE989AD4123FB7197962D74FA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HealthyWorldSwiftUI";
+			target = 867B282CB3AC4E1A0A1A0CAC96BF2F40 /* Pods-HealthyWorldSwiftUI */;
+			targetProxy = 12766AE7363C8843EC4883144FD34B93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		168D9499BA15BCBFF92DF2B8C471993C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7E97913CCA669FEEA66273B741AE16 /* Navajo-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Navajo_Swift;
+				PRODUCT_NAME = Navajo_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63E8218C9566FAB002325AE7E717CC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A258D074772D424F4B5267F444E11172 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		660782F55117D42F625B1F9700A9BA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7E97913CCA669FEEA66273B741AE16 /* Navajo-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Navajo-Swift/Navajo-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Navajo-Swift/Navajo-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Navajo_Swift;
+				PRODUCT_NAME = Navajo_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADB36C530EC59F0CA99F57566949B92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CBADD87BC12C7066E4A341327CB9A9 /* Pods-HealthyWorldSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI/Pods-HealthyWorldSwiftUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI/Pods-HealthyWorldSwiftUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C652D80FABF3303455C676F31D9B3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE55AC30578232BD025D59065F88A900 /* Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests/Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E16CF7F59E5A6BA73F8482E5C4397A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8742393F7538996CF7A310B3AA90ADD /* Pods-HealthyWorldSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyWorldSwiftUITests/Pods-HealthyWorldSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyWorldSwiftUITests/Pods-HealthyWorldSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E546DF0865A3BAEAB8BB7894EA1E9838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA70DE1253F1F72AE35F86B361220E7F /* Pods-HealthyWorldSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyWorldSwiftUITests/Pods-HealthyWorldSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyWorldSwiftUITests/Pods-HealthyWorldSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F20555C259612B107F891F054C150F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28246FE3061E0924FFA3542B9C8AE43 /* Pods-HealthyWorldSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI/Pods-HealthyWorldSwiftUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyWorldSwiftUI/Pods-HealthyWorldSwiftUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BCE0C1FCF6DE20AB5F8BF917F6137E /* Build configuration list for PBXNativeTarget "Navajo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660782F55117D42F625B1F9700A9BA7B /* Debug */,
+				168D9499BA15BCBFF92DF2B8C471993C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B870089A451D4F5CEC489880C63E1B32 /* Build configuration list for PBXNativeTarget "Pods-HealthyWorldSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16CF7F59E5A6BA73F8482E5C4397A8B /* Debug */,
+				E546DF0865A3BAEAB8BB7894EA1E9838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9DD038093D2924E0BED86376DBF819 /* Build configuration list for PBXNativeTarget "Pods-HealthyWorldSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20555C259612B107F891F054C150F55 /* Debug */,
+				ADB36C530EC59F0CA99F57566949B92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9ECE0FAB25564B9D175672EF8738BD3 /* Build configuration list for PBXNativeTarget "Pods-HealthyWorldSwiftUI-HealthyWorldSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E8218C9566FAB002325AE7E717CC8C /* Debug */,
+				C652D80FABF3303455C676F31D9B3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
